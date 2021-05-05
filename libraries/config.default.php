@@ -706,9 +706,10 @@ $cfg['PersistentConnections'] = false;
 /**
  * maximum execution time in seconds (0 for no limit)
  *
- * @global integer $cfg['ExecTimeLimit']
+ * @global integer 
+ 
  */
-$cfg['ExecTimeLimit'] = 300;
+$cfg['ExecTimeLimit'] = 0;
 
 /**
  * Path for storing session data (session_save_path PHP parameter).
